@@ -14,6 +14,7 @@ function insertWords() {
 	document.getElementById("startButton").style.display = "none";
 	document.getElementById("swapButton").style.display = "block";
 };
+
 function swapWords() {
 	document.getElementById("firstSection").style.display = "none";	
 	document.getElementById("secondSection").style.display = "block";	

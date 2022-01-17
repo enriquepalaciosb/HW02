@@ -1,10 +1,24 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+/* JUMBOTRON STYLINGS */
+h1.text-center.website-banner{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* SECTIONS STLYINGS */
 #firstSection{
     background: linear-gradient(purple,gold);
+    color: aliceblue;
+    font-family: 'Noto Sans', sans-serif;
 }
 #secondSection{
 	display: none;
-    background: linear-gradient(blue,red);
+    background: linear-gradient(318deg, blue,red);
     color: white;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 35px;
 }
 #swapButton{
     display: none;
@@ -16,7 +30,6 @@ section {
 	height: 200px;
 	font-size: 30px;
 }
-
 .center {
   margin: 0;
   position: absolute;
@@ -24,11 +37,17 @@ section {
   -ms-transform: translate(-50%, 100%);
   transform: translate(-50%, 100%);
 }
-
 .rightAlign {
   margin: 0;
   position: absolute;
   left: 55%;
   -ms-transform: translate(-50%, 100%);
   transform: translate(-50%, 100%);
+}
+
+/* FOOTER */
+.text-center.p-3{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
